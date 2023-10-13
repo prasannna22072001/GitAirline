@@ -28,7 +28,10 @@ public class AirLine extends BaseTest{
 		mainpage.step3(toCity);
 		mainpage.calender(month ,date);
 		
-		
+		System.out.println("prasanna");
+		System.out.println("prasanna");
+		System.out.println("prasanna");
+
 		CompanyPage cpage = new CompanyPage(driver);
 		cpage.step1(airline_number);
 		
