@@ -32,6 +32,9 @@ public class AirLine extends BaseTest{
 		System.out.println("prasanna");
 		System.out.println("prasanna");
 
+		for( int i=0;i<4;i++) {
+			System.out.println(i);
+		}
 		CompanyPage cpage = new CompanyPage(driver);
 		cpage.step1(airline_number);
 		

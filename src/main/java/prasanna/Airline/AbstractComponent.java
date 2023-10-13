@@ -26,4 +26,9 @@ WebDriver driver;
 		wait.until(ExpectedConditions.visibilityOfElementLocated(findBy));
 
 		}
+	public void i1() {
+		for( int i=0;i<4;i++) {
+			System.out.println(i);
+		}
+	}
 }
